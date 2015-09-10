@@ -1,7 +1,10 @@
+<h2>FizzBuzzer</h2>
+<small>Multiples of three display "Fizz". Multiples of five display "Buzz". Multiples of three and five display "FizzBuzz"</small>
+<div id="error"></div>
 <ul>
 	<% @numbers.each do |n| %>
 		<li class="number-to-fb" id="<%= n %>">
-			<%= n %>
+			<%= n %>: 
 		</li>
 	<% end %>
 </ul>
